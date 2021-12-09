@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500&display=swap");
+
+.body {
+  background-color: #f3f5f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  color: #0e153a;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navtext1 {
+  color: #0e153a !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right: 40px;
+}
+.navtext2 {
+  color: #0e153a !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.username {
+  color: #0e153a !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  color: #0e153a !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: unset !important;
+}
+
+.login_title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+.label {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px !important;
+}
+
+.input {
+  outline: none !important;
+  border-radius: 8px !important;
+  border: none !important;
+  height: 100%;
+  width: 100%;
+  background-color: #dee1ec !important ;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.subbutton {
+  background-color: #0e153a !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  border: none !important;
+  font-size: 16px !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.formcard {
+  border-radius: 20px !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 1.3px 2.7px 1.9px -25px rgba(0, 0, 0, 0.021),
+    3px 6.4px 4.3px -25px rgba(0, 0, 0, 0.03),
+    5.4px 11.4px 7.7px -25px rgba(0, 0, 0, 0.037),
+    9px 18.9px 12.8px -25px rgba(0, 0, 0, 0.043),
+    14.8px 31.2px 21.2px -25px rgba(0, 0, 0, 0.05),
+    25.9px 54.6px 37px -25px rgba(0, 0, 0, 0.059),
+    56px 118px 80px -25px rgba(0, 0, 0, 0.08);
+}
+
+.search {
+  outline: none !important;
+  border-radius: 8px !important;
+  border: none !important;
+  height: 100%;
+  width: 100%;
+  background-color: #dee1ec !important ;
+  padding-left: 20px !important;
+  padding-right: 10px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.searchbutton {
+  background-color: #0e153a !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  border: none !important;
+  font-size: 16px !important;
+  margin-left: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  outline-color: none;
+}
+
+.searchbutton:active {
+  color: none;
+}
+
+.usercard {
+  border-radius: 20px !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 1.3px 2.7px 1.9px -25px rgba(0, 0, 0, 0.021),
+    3px 6.4px 4.3px -25px rgba(0, 0, 0, 0.03),
+    5.4px 11.4px 7.7px -25px rgba(0, 0, 0, 0.037),
+    9px 18.9px 12.8px -25px rgba(0, 0, 0, 0.043),
+    14.8px 31.2px 21.2px -25px rgba(0, 0, 0, 0.05),
+    25.9px 54.6px 37px -25px rgba(0, 0, 0, 0.059),
+    56px 118px 80px -25px rgba(0, 0, 0, 0.08);
+}
+
+.userimg {
+  border-radius: 20px !important;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.listgroup {
+  border-color: none !important;
+  border: none !important;
+  border-top: 0 none !important;
+  margin-top: 50px;
+}
+
+.listgrouptxt {
+  padding-left: 30px;
+  margin-top: 5px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.repocard {
+  border-radius: 15px !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 0.4px 0.3px 7.4px -39px rgba(0, 0, 0, 0.02),
+    1.1px 0.7px 17.8px -39px rgba(0, 0, 0, 0.028),
+    2px 1.3px 33.4px -39px rgba(0, 0, 0, 0.035),
+    3.6px 2.2px 59.6px -39px rgba(0, 0, 0, 0.042),
+    6.7px 4.2px 111.5px -39px rgba(0, 0, 0, 0.05),
+    16px 10px 267px -39px rgba(0, 0, 0, 0.07);
+}
+
+.link {
+  padding-left: 10px;
+}
+
+a:link {
+  color: #0e153a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0e153a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0e153a;
+  background-color: transparent;
+  text-decoration: underline;
+  opacity: "100%" !important;
+}
+
+a:active {
+  color: #0e153a;
+  background-color: transparent;
+  text-decoration: none;
+  opacity: "100%" !important;
+}
+
+.cardtxt {
+  font-family: "Roboto", sans-serif;
+  align-self: center;
+}
+
+.visitbutton {
+  background-color: #0e153a !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  border: none !important;
+  font-size: 16px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  outline-color: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 92%;
+  align-self: center;
 }

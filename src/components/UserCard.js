@@ -22,7 +22,7 @@ const UserCard = ({ user, query }) => {
           <span
             style={{ opacity: "80%", fontWeight: "500", paddingLeft: "5px" }}
           >
-            {user.name}{" "}
+            {user.name ? user.name : "None"}
           </span>
         </div>
         <div

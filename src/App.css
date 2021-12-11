@@ -13,6 +13,17 @@
   margin-left: 75px;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+.logo:active {
+  text-decoration: none;
+}
+
+.logo:focus {
+  text-decoration: none;
+}
+
 .navtext1 {
   color: #0e153a !important;
   font-family: "Roboto", sans-serif;
@@ -28,6 +39,28 @@
   font-size: 16px;
   letter-spacing: 2px;
   margin-right: 50px;
+}
+
+.navtext1:hover {
+  text-decoration: none;
+}
+.navtext1:active {
+  text-decoration: none;
+}
+
+.navtext1:focus {
+  text-decoration: none;
+}
+
+.navtext2:hover {
+  text-decoration: none;
+}
+.navtext2:active {
+  text-decoration: none;
+}
+
+.navtext2:focus {
+  text-decoration: none;
 }
 
 .username {

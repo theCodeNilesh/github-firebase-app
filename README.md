@@ -74,9 +74,10 @@ Firebaseconfig
 
 
 ## Reflection
-This was a  project built during 3rd year of Engineering college as a personal project. Project goals using ```RractJs``` technology to create a react app to  users to pull data from the ```Github API```.
+This was a project built during 3rd year of Engineering college as a personal project. The Project goal was to use ```ReactJs``` technology to create a react app for users to pull data from the ```Github API```.
 
-One of the main challenges I ran into was Authentication, here i used ```Firease``` Authentication
+One of the main challenge I ran into was Authentication, here I have used ```Firebase``` Authentication
+
 ## API Reference
 
 #### API used in this project

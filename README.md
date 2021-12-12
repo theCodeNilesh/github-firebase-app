@@ -10,7 +10,8 @@ An application created using ```ReactJS``` to fetch the user ```info``` and ```r
 
 Link to the Application
 
-https://gitfirebase-app-nilesh.netlify.app
+https://github-firebase-app-nilesh.netlify.app
+
 
 ## Project Screenshots
 

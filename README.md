@@ -12,7 +12,7 @@ Link to the Application
 
 https://gitfirebase-app-nilesh.netlify.app
 
-## Screenshots
+## Project Screenshots
 
 ![signup](https://user-images.githubusercontent.com/61627365/145703670-89b32a37-82ff-4c7d-a37e-bdaeffd5ab7a.jpg)
 ![signIn](https://user-images.githubusercontent.com/61627365/145703667-cb0914f9-3cd0-41f2-b7ff-428b89ecde5d.jpg)

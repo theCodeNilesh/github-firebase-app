@@ -9,7 +9,7 @@ An application created using ```ReactJS``` to fetch the user ```info``` and ```r
 ## Demo
 
 Link to the Application
-![home](https://user-images.githubusercontent.com/61627365/145703584-d7de4157-43d6-45ec-8306-eeb8ce5d0175.jpg)
+
 
 
 https://gitfirebase-app-nilesh.netlify.app

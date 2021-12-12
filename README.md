@@ -14,9 +14,10 @@ https://gitfirebase-app-nilesh.netlify.app
 
 ## Screenshots
 
+![signup](https://user-images.githubusercontent.com/61627365/145703670-89b32a37-82ff-4c7d-a37e-bdaeffd5ab7a.jpg)
 ![signIn](https://user-images.githubusercontent.com/61627365/145703667-cb0914f9-3cd0-41f2-b7ff-428b89ecde5d.jpg)
 ![home](https://user-images.githubusercontent.com/61627365/145703669-8161c5d8-cf57-4ef8-9eef-9ff964a82220.jpg)
-![signup](https://user-images.githubusercontent.com/61627365/145703670-89b32a37-82ff-4c7d-a37e-bdaeffd5ab7a.jpg)
+
 
 
 ## Installation

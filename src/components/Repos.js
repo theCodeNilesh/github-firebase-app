@@ -1,7 +1,3 @@
-//https://api.github.com/users/theCodeNilesh/repos
-//https://api.github.com/users/theCodeNilesh main API
-//"https://github.com/theCodeNilesh/Easier"  {html_ur} visit repo link
-
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import { ListGroup, ListGroupItem } from "reactstrap";

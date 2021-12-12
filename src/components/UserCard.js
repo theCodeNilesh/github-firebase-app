@@ -60,9 +60,7 @@ const UserCard = ({ user, query }) => {
           </span>
         </div>
         <a href={user.html_url} target="_blank">
-          <Button className="visitbutton" color="primary">
-            Check Profile
-          </Button>
+          <Button className="visitbutton">Check Profile</Button>
         </a>
       </CardBody>
     </Card>
